@@ -1,0 +1,5 @@
+print("This is console module")
+Dia= input('Qual dia você naceu?')
+Mês= input('Qual mês você nasceu?')
+Ano=input('Qual ano você nasceu?')
+print('Você nasceu em',Dia,'de', Mês,'de', Ano, '. Correto?')
