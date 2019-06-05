@@ -1,0 +1,16 @@
+from math import ceil
+nota1=float(input('Qual a n1?'))
+nota2=float(input('Qual a n2?'))
+m=ceil((nota1+nota2)/2)
+print('Sua média aproximada é igual {}'.format(m))
+from math import sqrt,pow,floor
+num1=float(input('Digite qualquer numero:'))
+r=sqrt(num1)
+p=pow(num1,2)
+arb=floor(num1)
+arc=ceil(num1)
+print('A raiz deste numero é {} , seu resultado quando elevado ao quadrado é {}'
+      ' \nSua aproximação para o menor inteiro é {} e sua aproximação para o maior inteiro é {}'.format(r,p,arb,arc))
+      #Comando import para adição de módulos.
+#Módulos especificos: from---import---     Todos os Módulos : import----
+#Exercicio de média aritmética com módulo ceil. E operações com módulo math.
