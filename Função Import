@@ -14,3 +14,4 @@ print('A raiz deste numero é {} , seu resultado quando elevado ao quadrado é {
       #Comando import para adição de módulos.
 #Módulos especificos: from---import---     Todos os Módulos : import----
 #Exercicio de média aritmética com módulo ceil. E operações com módulo math.
+#Importar todo o mmódulo math e utilizar o comando math. após uma variavel para ver a lista de comandos do módulo math.
