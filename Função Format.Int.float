@@ -1,0 +1,6 @@
+name=input('Qual o seu nome?')
+idade=int(input('Qual a sua idade?'))
+peso=float(input('Qual o seu peso?'))
+altura=float(input('Qual a sua altura?'))
+#print('Seu nome é',name,',sua idade é de ',idade,' anos','seu peso é de ',peso,'kg','e sua altura é de',altura,'m')
+print('Seu nome é {}, sua idade é {} anos,seu peso é {}kg e sua altura é {}m'.format(name,idade,peso,altura))
