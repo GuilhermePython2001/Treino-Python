@@ -1,0 +1,10 @@
+num1=float(input('Numero1:'))
+num2=float(input('Numero2:'))
+s=num1+num2
+d=num1/num2
+di=num1//num2
+r=num1%num2
+m=num1*num2
+exp=num1**num2
+print('A soma é {} , a divisão é {:.10} , a divisão inteira é {} , o resto dest divisão é {} ,\n'
+     'A multiplicação é {} e a exponeciação é {}.'.format(s,d,di,r,m,exp))
