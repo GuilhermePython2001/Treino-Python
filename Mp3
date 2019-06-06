@@ -1,0 +1,7 @@
+import pygame
+
+pygame.mixer.init()
+pygame.mixer_music.load('xx.mp3')
+pygame.mixer_music.play()
+pygame.event.wait()
+#A musica escolhida deve estar no formato (mp3) e deve estar no mesmo diretório de se arquivo Python.
