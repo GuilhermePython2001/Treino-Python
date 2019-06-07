@@ -1,0 +1,22 @@
+g='Eu me chamo jorge'
+j='acacacac'
+#Corte Especifico + Espaçamento
+print(j[0:18:2])
+print(g[:18])
+print(g[0:18])
+print(g[3:])
+#Funções de analise
+print(len(g),
+len(j),
+g.count('o'),
+j.count('a'),
+j.find('ac'),
+g.replace('jorge','Guilherme'),
+g.upper(),
+g.lower(),
+g.capitalize(),#Traz tudo para minusculo e deixa somente a 1letra upper,
+g.title(),#Todas as iniciais upper
+g.strip,#Remoção de espaços inuteis
+#Divisção de Strings
+g.split(),#Divisão de palavras por espaços entre elas.'
+'_'.join(g))#Junção de Strings com caracter desejado
