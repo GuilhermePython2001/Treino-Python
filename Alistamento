@@ -1,0 +1,26 @@
+#EX 38
+num1=int(input('Digite um numero inteiro:'))
+num2=int(input('Digite um numero inteiro:'))
+if num1>num2:
+    print('O primeiro numero é maior!!!')
+elif num2>num1:
+    print('O segundo numero é maior!!!')
+else:
+    print('Não existe valor maior ou menor , ambos são iguais!!!')
+print('Obrigado, até mais!!!')
+#Ex 39
+from datetime import date
+nome=str(input('digite seu nome:'.upper()))
+data=int(input('DIGITE Seu ano DE NASCIMENTO:'.upper()))
+anoatual=date.today().year
+idade=anoatual-data
+print('ANO DE NASCIMENTO: {}'.format(data))
+print('Quem nasceu em {} tem {} anos em {}.'.format(data,idade,anoatual))
+fanao=18-idade
+if idade==18:
+    print('{} voce deve se alistar no exército ainda neste ano, fique atento!!!'.format(nome))
+elif idade>18:
+    print('{} voce ja se alistou ou deveria ter se alistado...'.format(nome))
+else:
+    print('Voce ainda não deve se alistar , faltam {} anos para voce se inscrever...'.format(fanao))
+print('Obrigado, volte sempre!!!')
