@@ -1,0 +1,37 @@
+import random
+from pygame import mixer
+import pygame
+
+
+nomes=['Pedra','Tesoura','Papel']
+x=random.choice(nomes)
+y=str(input('Pedra,Papel ou Tesoura?'))
+if x==y:
+    print('Empate'.upper())
+    mixer.init()
+    mixer.music.load('Empatou.mp3')
+    mixer.music.play()
+    input()
+    pygame.event.wait()
+    print('Empate'.upper())
+
+elif x=='Pedra' and y=='Tesoura' or x=='Tesoura' and y=='Papel' or x=='Papel' and y=='Pedra':
+    print('A maquina Vence'.upper())
+    mixer.init()
+    mixer.music.load('Máquina Vence.mp3')
+    mixer.music.play()
+    input()
+    pygame.event.wait()
+    print('A maquina Vence'.upper())
+
+else:
+    print('Voce ganhou, parabens'.upper())
+    mixer.init()
+    mixer.music.load('Ganhou.mp3')
+    mixer.music.play()
+    input()
+    pygame.event.wait()
+
+    print('Voce ganhou, parabens'.upper())
+
+print('Tente outra vez !!!')
