@@ -1,0 +1,12 @@
+
+l1=float(input('Digite o valor de L1:'))
+l2=float(input('Digite o valor de L2:'))
+l3=float(input('Digite o valor de L3:'))
+if l1+l2>l3 and l2+l3>l1 and l1+l3>l2 and l1==l2==l3:
+    print('Formamos um triangulo Equilatero!!!')
+elif  l1+l2>l3 and l2+l3>l1 and l1+l3>l2 and l1==l2 or l2==l3:
+    print('Formamos um tirangulo Isóceles!!!')
+elif  l1+l2>l3 and l2+l3>l1 and l1+l3>l2 and l1!=l2!=l3:
+    print('Formamos um triangulo Escaleno!!!')
+else:
+    print('Não formamos um triangulo!!!')
