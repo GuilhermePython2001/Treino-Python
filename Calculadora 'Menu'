@@ -1,0 +1,30 @@
+from time import sleep
+num=float(input('Digite um numero:'))
+num2=float(input('Digite um numero:'))
+c=1 or 2 or 3 or 4
+while c!=5:
+    sleep(1)
+    print('[1]Somar\n[2]Multiplicar\n[3]Maior\n[4]Novos Numeros\n[5]Sair do programa')
+    c=int(input('Qual a sua opção?'))
+    if c==1:
+        print('-=-'*13)
+        print('A soma destes numeros é igual a',num+num2)
+        print('-=-'*13)
+    elif c==2:
+        print('-=-' * 13)
+        print('A multiplicação é igual a',num*num2)
+        print('-=-' * 13)
+    elif c==3:
+        if num>num2:
+            print('-=-' * 10)
+            print('{} é maior que {}'.format(num,num2))
+            print('-=-' * 10)
+        else:
+            print('-=-' * 10)
+            print('{} é maior que {}'.format(num2,num))
+            print('-=-' * 10)
+    else :
+        print('-=-' * 10)
+        num=float(input('Digite outro numero:'))
+        num2=float(input('Digite outro numero:'))
+        print('-=-' * 10)
